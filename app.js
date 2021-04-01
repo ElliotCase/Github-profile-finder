@@ -21,7 +21,8 @@ searchUser.addEventListener('keyup', (e) => {
                 } else {
                     //display profile
                     ui.showProfile(data.profile)
-                    ui.shwoRepos(data.repos);
+                    ui.showRepos(data.repos)
+
                 }
             })
     } else {
